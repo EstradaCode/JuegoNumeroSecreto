@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JUEGO: NumeroSecreto</title>
+</head>
+<body>
+    <article class="contenedor">
+        <section class="opcion">
+            <h1>ADIVINA EL NUMERO <span class="rojo">SECRETO!</span></h1>
+            <H2 id="show">Escribe un numero del 1 al 10!</H2>
+            <input type="number">
+            <button onclick="verificarNumero()"id="intentar" type="button">Intentar</button>
+            <button onclick="valoresDefault()" id="reiniciar"type="button" disabled >Volver a jugar</button>
+            <h2> Tienes <span id="num"> 5 </span>intentos</h2>
+            <h3></h3>
+        </section>
+        <img src="giphy.gif" class="spiderman">
+    </article>
+    <script src="script.js"></script>
+</body>
+</html>

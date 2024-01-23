@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: fantasy;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b3677, #c3143165),url(abstract-technology-binary-code-background_6735-500.avif); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    border-radius: 10px;
+    height: 900px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid #c31432;
+    padding: 50px;
+    position: relative;
+}
+.contenedor .opcion{
+    position: absolute;
+    top: 35%;
+    left:10%;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+}
+.contenedor .opcion h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+.contenedor .opcion h2{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.contenedor .opcion h3{
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 300;
+}
+.contenedor .opcion input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+}
+ .contenedor .opcion button{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(48, 59, 209);
+    color: aliceblue;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .8);
+    width: 100%;
+    margin: 10px 0 0 ;
+    cursor:pointer;
+}
+.contenedor .opcion button:hover{
+    background-color: rgb(209, 80, 48);
+}
+
+#reiniciar:disabled,#intentar:disabled{
+    background-color: grey;
+    cursor:default;
+}
+.rojo{
+    color: #c31432;
+}
+#num{
+    background-color: #c31432;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+    margin: 5px;
+}
+.contenedor .opcion input{
+    display: block;
+}
+.contenedor .spiderman{
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    width: 50%;
+    max-height: 900px;
+}
