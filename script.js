@@ -57,6 +57,7 @@ function verificarNumero(){
         if(maxIntentos == 0){
             document.getElementById('show').textContent = 'Perdiste! Te quedaste sin intentos';   
             document.getElementById('num').textContent = '0';
+            document.getElementById('reiniciar').textContent = ' F5 para Volver a Jugar!';
             document.getElementById('intentar').setAttribute('disabled',true);
         }
     }
