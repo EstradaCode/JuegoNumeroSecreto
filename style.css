@@ -18,8 +18,7 @@ body{
     border-radius: 10px;
     height: 900px;
     width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: auto;
     border: solid #c31432;
     padding: 50px;
     position: relative;
